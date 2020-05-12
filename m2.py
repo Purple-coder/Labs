@@ -27,7 +27,7 @@ N = N / T
 
 print('N =', N)
 print('Sum(N) =', sum(N))
-print(np.linalg.matrix_power(P, 500))
+print(np.linalg.matrix_power(P, 300))
 
 A = np.transpose(P)
 A[0, 0] -= 1
