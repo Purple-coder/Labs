@@ -3,7 +3,7 @@ from random import random
 import matplotlib.pyplot as plt
 
 P = np.array([[0.8, 0.2, 0],
-            [0.3, 0.35, 0.35],
+            [0.4, 0.3, 0.3],
             [0, 0.7, 0.3]])
 
 T = 100000
