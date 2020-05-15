@@ -32,5 +32,6 @@ print(np.linalg.matrix_power(P, 300))
 A = np.transpose(P)
 A[0, 0] -= 1
 A[1, 1] -= 1
+A[2: ] = 1
 b = np.array([0, 0, 1])
 print('x =', np.linalg.solve(A, b))
